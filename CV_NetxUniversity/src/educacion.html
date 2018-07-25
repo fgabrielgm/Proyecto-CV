@@ -2,9 +2,77 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scaleble=no">
     <title>Educación</title>
 </head>
 <body>
+
+<img src="img/iconFG.svg" width="300px">
+<h1>CURRICULUM VITAE</h1>
+<h2>Nombres:</h2>
+<h3>FERNANDO GABRIEL </h3>
+<h2>Apellidos:</h2>
+<h3>GARZÓN MÁRQUEZ</h3>
+<h2>Fecha de Nacimiento:</h2>
+<h3>13 de Julio de 1984</h3>
+<h2>Lugar de Nacimiento:</h2>
+<h3>Quito - Ecuador</h3>
 <a href="/CV_NetxUniversity/src/index.html">Inicio</a>
+<a href="/CV_NetxUniversity/src/educacion.html" >Educación</a>
+<a href="/CV_NetxUniversity/src/experiencia.html" >Experiencia</a>
+<h2>Educación</h2>
+<table border="5" >
+  <tr>
+    <th>Año</th>
+    <th>Institución</th>
+    <th>Lugar</th>
+    <th>Culminó?</th>
+  </tr>
+  <tr align="Center">
+    <td>2012</td>
+    <td>Universidad de Palermo</td>
+    <td>Buenos Aires - Argentina</td>
+    <td>SI</td>
+  </tr>
+  <tr align="Center">
+    <td>2010</td>
+    <td>Universidad Abierta Interamericana</td>
+    <td>Buenos Aires - Argentina</td>
+    <td>SI</td>
+  </tr>
+  <tr align="Center">
+    <td>2008</td>
+    <td>Universidad Central del Ecuador</td>
+    <td>Quito - Ecuador</td>
+    <td>SI</td>
+  </tr>
+</table>
+  <!-- Formulario -->
+  <form autocomplete="on" name="Añadir Educación">
+    <br>
+    <legend><strong>Agregar Estudios</strong></legend>
+    <br><label><strong>Año:</strong></label>
+    <label>
+      <select required>
+        <option>2018</option>
+        <option>2017</option>
+        <option>2016</option>
+        <option>2015</option>
+        <option>2014</option>
+        <option>2013</option>
+        <option>2012</option>
+      </select>
+    </label>
+    <br><label><strong>Institución:</strong></label>
+    <input type="text" placeholder="Aquí ingresa la Institución donde estudiaste" required>
+    <br><label><strong>Lugar: </strong></label>
+    <textarea name="Lugares" rows="4" cols="20" required></textarea>
+    <br><input type="submit">
+    <input type="reset">
+  </form>
+
 </body>
+<footer>
+  <p><strong>Correo Electrónico:</strong> fgabrielgm@hotmail.com <strong>Celular: </strong>0998386460 <strong>Facebook: </strong>www.facebook.com/Fernando_Garzón <strong>Quito - Ecuador</strong></p>
+</footer>
 </html>
